@@ -1,6 +1,7 @@
 from unit.base_page import BasePage
 from time import sleep
 
+#转出资源
 class MyInvalidPage(BasePage):
     #来源
     source_0 = "xpath=>//a[@data-sertype='source'][@data-serval='0']"  # 客服

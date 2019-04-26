@@ -1,6 +1,7 @@
 from unit.base_page import BasePage
 from time import sleep
 
+#过期资源池
 class OverdueClaimPage(BasePage):
     #咨询类别
     consultation_1 = "xpath=>//div[@id='ser-intentionType']/a[@data-sertype='intentionType'][@data-serval='1']"  # 雅思

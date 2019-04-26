@@ -1,6 +1,7 @@
 from unit.base_page import BasePage
 from time import sleep
 
+#全部回访
 class AllNextInvitePage(BasePage):
     #查询条件
     studentName_input = "name=>studentName"

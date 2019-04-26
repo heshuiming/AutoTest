@@ -1,6 +1,7 @@
 from unit.base_page import BasePage
 from time import sleep
 
+#重复用户管理
 class ResourceMergePage(BasePage):
     #查询条件
     counselorName_input = "id=>counselorName"

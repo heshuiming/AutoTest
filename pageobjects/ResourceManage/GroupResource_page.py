@@ -1,6 +1,7 @@
 from unit.base_page import BasePage
 from time import sleep
 
+#本组资源
 class GroupResourcePage(BasePage):
     #咨询类别
     consultation_1 = "xpath=>//label[contains(text(),'咨询类别')]/../a[contains(text(),'雅思')]"  # 雅思

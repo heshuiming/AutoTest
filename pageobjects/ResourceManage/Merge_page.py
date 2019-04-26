@@ -1,5 +1,6 @@
 from unit.base_page import BasePage
 
+#全部资源合并历史
 class MergePage(BasePage):
     #查询条件
     counselorName_input = "name=>counselorName"
