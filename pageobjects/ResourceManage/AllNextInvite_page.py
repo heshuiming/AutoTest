@@ -58,6 +58,7 @@ class AllNextInvitePage(BasePage):
         else:
             print("请给出正确的回访时间！")
 
+
     #到访状态
     invite_status_0 = "xpath=>//label[contains(text(),'回访状态:')]/../a[@data-type='0']" #未到访
     invite_status_1 = "xpath=>//label[contains(text(),'回访状态:')]/../a[@data-type='1']" #已到访
